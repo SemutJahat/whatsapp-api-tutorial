@@ -25,7 +25,7 @@ app.use(fileUpload({
 }));
 
 app.get('/', (req, res) => {
-  res.sendFile('index.html', {
+  res.sendFile('index-multiple-account.html', {
     root: __dirname
   });
 });
